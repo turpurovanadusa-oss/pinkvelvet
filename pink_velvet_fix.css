@@ -1,0 +1,109 @@
+
+/* Pink Velvet - Layout Fix Pack */
+
+:root{
+  --container:1200px;
+  --section-space:120px;
+  --radius:28px;
+}
+
+html{scroll-behavior:smooth;}
+
+.services-container,
+.contacts-container,
+.price-section,
+.portfolio,
+.masters,
+.reviews{
+    max-width:1200px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    padding-left:20px !important;
+    padding-right:20px !important;
+    box-sizing:border-box;;
+}
+
+.services,
+.portfolio,
+.price-section,
+.masters,
+.reviews,
+.contacts{
+    margin:0 !important;
+    padding-top:120px !important;
+    padding-bottom:120px !important;
+}
+
+.services-title,
+.portfolio-top h2,
+.price-title,
+.masters-title,
+.reviews-header h2,
+.contacts-header h2{
+    font-size:48px !important;
+    line-height:1.1 !important;
+    font-weight:300 !important;
+    margin-bottom:60px !important;
+}
+
+.contacts-header h2{
+    margin-bottom:0 !important;
+}
+
+.contacts-header{
+    margin-bottom:60px !important;
+}
+
+.service-card,
+.review-card,
+.contacts-card,
+.master-main img,
+.portfolio-grid img{
+    border-radius:28px !important;
+}
+
+.service-card{
+    width:100% !important;
+}
+
+.header-btn,
+.hero-btn,
+.services-main-btn,
+.contacts-btn,
+.reviews-btn{
+    height:72px !important;
+    border-radius:999px !important;
+}
+
+.services-main-btn,
+.contacts-btn{
+    background:#D22866 !important;
+}
+
+.hero-content{
+    margin-left:0 !important;
+    padding-left:40px !important;
+}
+
+@media (max-width:1200px){
+  .services-container,
+  .contacts-container,
+  .price-section,
+  .portfolio,
+  .masters,
+  .reviews{
+      padding-left:20px !important;
+      padding-right:20px !important;
+  }
+
+  .services-title,
+  .portfolio-top h2,
+  .price-title,
+  .masters-title,
+  .reviews-header h2,
+  .contacts-header h2{
+      font-size:34px !important;
+  }
+}
+
+
